@@ -1,5 +1,5 @@
 # Robot-Control-System
-Robot Control System web page containg <br>
+Robot Control System web page contains <br>
 home page with two buttons to convert you to : <br>
 1-robot control page : <br>
 with 5 buttons right, left, forwards,down to move the robot and press stop to stop moving it. <br>
