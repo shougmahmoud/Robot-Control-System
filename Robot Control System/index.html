@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Robot Control System</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="contant">
+            <p> ROBOT CONTROL <br> SYSTEM</p>
+            <p2> exclusive innovative robot</p2>
+        </div>
+        <div class="controls">
+            <div class="firstPage btn"> <a href="robot control/robot.html">robot control</a> </div>
+            <div class="secondPage btn"></div> <a href="arm/arm.html">arm control </a> </div>
+    </div>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "0f8e0f07-c72f-4bc0-99fd-544afed708bb", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "67b8c7dd-27ce-45e2-bc23-f0c84204bfc2", // The ID of your service instance.
+            onLoad: function(instance) {
+                instance.render();
+            }
+        };
+        setTimeout(function() {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+            document.head.appendChild(t);
+        });
+    </script>
+    </div>
+</body>
+
+</html>

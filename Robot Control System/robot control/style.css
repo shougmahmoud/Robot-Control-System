@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    background-color: #010010;
+    background-image: url("back.jpg");
+    background-position: right;
+    background-position: top;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+.tit {
+    margin-top: 45px;
+    text-align: center;
+    color: white;
+}
+
+.controls {
+    position: absolute;
+    right: 70%;
+}
+
+.btn {
+    border: none;
+    margin: 20px;
+    padding: 24px;
+    width: 220px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
+    font-size: 20px;
+}
+
+.stop {
+    background-image: linear-gradient(to left, #7f7fd5, #6598c5, #91eae4);
+    float: inline-start;
+}
+
+.left {
+    background-image: linear-gradient(to left, #e08abb, #6b75f8, #00d9ff);
+}
+
+.right {
+    background-image: linear-gradient(to left, #ffe657, #f7b271, #fa5d5d);
+}
+
+.forwards {
+    background-image: linear-gradient(to left, #12CBC4, #0652DD, #12CBC4);
+}
+
+.down {
+    background-image: linear-gradient(to left, #FDA7DF, #9980FA, #FDA7DF);
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+@media only screen and (max-width:800px) {
+    .controls {
+        position: absolute;
+        left: 100px;
+        right: 100px;
+    }
+}
